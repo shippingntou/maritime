@@ -11,152 +11,27 @@ html body {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
+    min-width: 100vw;
 }
 
-.jumbotron {
-    min-height: 80vh;
+.navbar {
+  margin: 0rem;
+  padding: 1rem;
+  border: none;
 }
 
-.jumbotron img {
-    width: 250px;
-
+#navbarNav {
+  flex-grow: 0 !important;
 }
 
-.header {
-    padding-top:20px;
-    padding-bottom:20px;
-    background-color: #00468d!important;
+#home-image {
+  margin-top: 2rem;
+  min-width: 23.9vw;
+  max-width: 23.9vw;
 }
 
-.navbar-toggler {
-    margin:1rem;
+#img-alt {
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-top: 1rem;
 }
-
-.nav-link{
-    font-size: 18;
-    color:#ffffff;
-}
-.nav-link:hover{
-    padding-left:30px;
-    font-size: 18;
-    color:#ffffff;
-}
-
-#navbarSupportedContent {
-    margin-left:30px;
-}
-
-.navbar p{
-    margin-bottom: 0;
-    color:#ffffff;
-}
-
-.dropdown-menu .dropdown-item a{
-    color: black;
-}
-
-.navbar-custom {
-    background-color: #00468d!important;
-}
-
-.jumbotron{
-    background-color: #ffffff!important;
-}
-
-
-.jumbotron h3{
-    margin-bottom: 1rem;
-}
-
-img {
-    height: auto;
-    max-width: 100%;
-}
-
-.footer {
-    color: #ffffff;
-    padding:20px;
-    background-color: #00468d;
-}
-
-
-.footer p{
-    margin:0rem;
-}
-
-
-
-.intern {
-    margin-bottom: 5rem;
-}
-
-#display-item {
-    border: none;
-    background-color: transparent;
-}
-.p-card p {
-    /* Add shadows to create the "card" effect */
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-  }
-  
-  /* On mouse-over, add a deeper shadow */
-  .p-card p.selective:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  }
-  #more-content {
-    display: none;
-  }
-  #more-content table{
-    display: none;
-  }
-  #selective {
-    cursor: pointer;
-  }
-  #visit1{
-    display: none;
-    margin: 2rem;
-  }
-
-  #visit1 img{
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-  }
-  #visit1 a{
-    color: black;
-  }
-
-  #visit2 {
-    display: none;
-  }
-  #visit2 a{
-    color: black;
-  }
-  .intern{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-  }
-  .intern .row {
-    margin: 2rem;
-  }
-
-  .result img{
-    max-width: 100%;
-  }
-
-  #result {
-    margin: 3rem;
-  }
-  #result h5{
-    margin: 0.5rem;
-  }
-  .result{
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    transition: 0.3s;
-    padding: 0.5rem;
-    border-radius: 0.5rem;
-  }
