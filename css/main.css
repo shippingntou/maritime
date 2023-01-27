@@ -35,3 +35,22 @@ html body {
   padding-top: 1rem;
   
 }
+
+.text {
+  padding: 10vh;
+}
+
+.pic-text{
+  padding-top: 10vh;
+  padding-left: 10vh;
+}
+
+#resource-pic {
+  max-height: 50vh;
+  padding-left: 3rem;
+  
+}
+
+.pic-row {
+  padding-bottom: 2rem;
+}
