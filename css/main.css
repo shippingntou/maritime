@@ -42,15 +42,19 @@ html body {
 
 .pic-text{
   padding-top: 10vh;
-  padding-left: 10vh;
+  padding-left: 2vw;
 }
 
 #resource-pic {
   max-height: 50vh;
-  padding-left: 3rem;
+  padding-left: 2rem;
   
 }
 
 .pic-row {
+  margin: 1rem;
   padding-bottom: 2rem;
+}
+.pic-row img {
+  max-width: 40vw;
 }
