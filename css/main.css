@@ -56,5 +56,6 @@ html body {
   padding-bottom: 2rem;
 }
 .pic-row img {
-  max-width: 40vw;
+  min-width: 20vw;
+  max-width: 80vw;
 }
